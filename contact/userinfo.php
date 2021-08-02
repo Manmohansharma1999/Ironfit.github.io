@@ -12,9 +12,9 @@ mysqli_select_db($con, 'contact');
 
 $First = $_POST['First'];
 $Last = $_POST['Last'];
-$Email = $_POST['First'];
-$Mobile = $_POST['First'];
-$Comment = $_POST['First'];
+$Email = $_POST['Email'];
+$Mobile = $_POST['Mobile']; 
+$Comment = $_POST['Comment'];
 
 $query = " insert into userinfo (First, Last, Email, Mobile, Comment)
 values ('$First', '$Last', '$Email', '$Mobile', '$Comment')";
