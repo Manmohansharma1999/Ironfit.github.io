@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect('localhost','root', '','Contact');
+$con = mysqli_connect('localhost','root', '','contact');
 
 if($con){
     echo "Connection Successfull";
